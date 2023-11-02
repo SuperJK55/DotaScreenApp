@@ -39,7 +39,7 @@ fun DotaScreen() {
         }
         item{
             Text(
-                text = "Dota 2 is a multiplayer online battle arena (MOBA) game which has two teams of five players compete to collectively destroy a large structure defended by the opposing team known as the \"Ancient\", whilst defending their own.",
+                text = stringResource(R.string.maintext),
                 style = DotaAppTheme.TextStyle.Regular_12_19,
                 color = DotaAppTheme.TextColor.maintext,
                 modifier = Modifier.padding(
@@ -61,7 +61,7 @@ fun DotaScreen() {
         }
         item{
             Text(
-                text = "Review & Ratings",
+                text = stringResource(R.string.reviewsrating),
                 style = DotaAppTheme.TextStyle.Bold_16,
                 color = DotaAppTheme.TextColor.reviewratings,
                 modifier = Modifier.padding(
@@ -75,7 +75,7 @@ fun DotaScreen() {
         }
         item{
             RatingBlock(rating = 4.9f,
-                reviewsCount = "70M",
+                reviewsCount = stringResource(R.string.reviews),
                 modifier = Modifier.padding(
                     start = 24.dp,
                     end = 24.dp,
@@ -109,7 +109,7 @@ fun DotaScreen() {
         }
         item {
             OvalButton(
-                text = "Install",
+                text = stringResource(R.string.installbutton),
                 onClick = {
                     Toast.makeText( context,"CLICKED", Toast.LENGTH_LONG).show()
                 },
@@ -119,7 +119,8 @@ fun DotaScreen() {
                         start = 24.dp,
                         end = 24.dp,
                         top = 20.dp,
-                        bottom = 40.dp)
+                        bottom = 40.dp
+                    )
                     .height(64.dp)
             )
         }

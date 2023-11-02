@@ -80,7 +80,7 @@ private fun HeaderBackground(
                     )
             ) {
                 Text(
-                    text = "DoTA2",
+                    text = stringResource(R.string.title),
                     style = DotaAppTheme.TextStyle.Bold_20_26,
                     color = DotaAppTheme.TextColor.primary
                 )
@@ -101,7 +101,7 @@ private fun HeaderBackground(
                         }
                     }
                     Text(
-                        text = "70M",
+                        text = stringResource(R.string.reviews),
                         style = DotaAppTheme.TextStyle.Regular_12,
                         color = DotaAppTheme.TextColor.ratingheader,
                         modifier = Modifier.padding(start = 8.dp)
