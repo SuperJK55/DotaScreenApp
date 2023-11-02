@@ -18,13 +18,3 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
-
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    DotaScreenAppTheme {
-        MainScreen()
-    }
-}
