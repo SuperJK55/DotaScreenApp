@@ -14,6 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.example.dotascreenapp.R
 import com.example.dotascreenapp.ui.theme.DotaAppTheme
@@ -53,6 +54,30 @@ fun DotaScreen() {
                     painterResource(R.drawable.preview_video_2)
                 ),
                 contentPadding = PaddingValues(start = 24.dp, end = 24.dp)
+            )
+        }
+        item{
+            Text(
+                text = "Review & Ratings",
+                style = DotaAppTheme.TextStyle.Bold_16,
+                color = DotaAppTheme.TextColor.reviewratings,
+                modifier = Modifier.padding(
+                    start = 24.dp,
+                    end = 24.dp,
+                    top = 20.dp,
+                    bottom = 12.dp
+                )
+
+            )
+        }
+        item{
+            RatingBlock(rating = 4.9f,
+                reviewsCount = "70M",
+                modifier = Modifier.padding(
+                    start = 24.dp,
+                    end = 24.dp,
+                    bottom = 16.dp
+                )
             )
         }
         item {
