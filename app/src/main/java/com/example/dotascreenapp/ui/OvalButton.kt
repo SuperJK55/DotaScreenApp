@@ -1,11 +1,14 @@
 package com.example.dotascreenapp.ui
 
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.unit.dp
+import com.example.dotascreenapp.ui.theme.DotaAppTheme
 
 @Composable
 fun OvalButton(
@@ -15,14 +18,15 @@ fun OvalButton(
 ){
     Button(onClick = { onClick() },
         colors =  ButtonDefaults.buttonColors(
-            containerColor = Color(0xFFF4D144),
-            contentColor = Color.Black,
-            disabledContainerColor = Color(0xFFF4D144),
-            disabledContentColor = Color(0xFFF4D144)
-        ),
+            containerColor = DotaAppTheme.ButtonColor.buttonbg),
+        shape = RoundedCornerShape(12.dp),
         modifier = modifier
     )
     {
-        Text(text = text, color = Color.Black)
+        Text(
+            text = text,
+            style = DotaAppTheme.TextStyle.Bold_20,
+            color = DotaAppTheme.TextColor.button
+        )
     }
 }
