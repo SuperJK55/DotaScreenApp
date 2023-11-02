@@ -77,6 +77,12 @@ object DotaAppTheme {
         val border
             @Composable
             get() = BorderGray
+        val primaryplay
+            @Composable
+            get() = Color.White
+        val bgplay
+            @Composable
+            get() = TransparentColor
     }
     object DividerColors {
         val divider

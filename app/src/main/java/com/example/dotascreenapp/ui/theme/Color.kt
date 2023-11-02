@@ -37,3 +37,6 @@ val ButtonTextColor = Color(0xFF050B18)
 
 //divider
 val DividerColor = Color(0xFF1A1F29)
+
+//play button
+val TransparentColor = Color(0x3DFFFFFF)
