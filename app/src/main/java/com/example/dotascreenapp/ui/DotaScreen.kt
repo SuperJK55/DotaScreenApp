@@ -27,7 +27,12 @@ fun DotaScreen() {
         item{
             DotaScreenHeader()
         }
-
+        item{
+            ScrollableChipsRow(
+                items = listOf("MOBA", "MULTYPLAYER", "STRATEGY"),
+                modifier = Modifier,
+                contentPadding = PaddingValues(start = 24.dp, end = 24.dp, top = 20.dp, bottom = 16.dp))
+        }
         item{
             Text(
                 text = "Dota 2 is a multiplayer online battle arena (MOBA) game which has two teams of five players compete to collectively destroy a large structure defended by the opposing team known as the \"Ancient\", whilst defending their own.",
