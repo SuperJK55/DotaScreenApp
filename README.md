@@ -6,4 +6,4 @@
 
 |1st                     |2nd                       |
 |:----------------------------:|:---------------------------:|
-|![Screenshot_20231103_024432](https://github.com/SuperJK55/DotaScreenApp/assets/145687949/62d95f39-3c74-4102-9187-65f796a73abb)|![Screenshot_20231103_024514](https://github.com/SuperJK55/DotaScreenApp/assets/145687949/4292ad57-493b-422d-bad9-80e09aad3ac5)|
+|<img src="https://github.com/SuperJK55/DotaScreenApp/assets/145687949/81efdaae-b266-4ca5-9807-fd8c3c86c32e">|<img src="https://github.com/SuperJK55/DotaScreenApp/assets/145687949/5183f702-b2f0-4274-9b0d-95f1eab0a0a1">|
